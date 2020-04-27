@@ -9,3 +9,29 @@ El teu primer repositori Git (linea comandes):
 4. Crear un fitxer de text (.txt) en aquesta carpeta.
 
 5. Fer un commit i push per a pujar els canvis al repositori remot de GitHub.
+
+###### Treballar amb branques:
+
+1. Crear una branca anomenada “branch1”.
+
+2. Modifica el text del fitxer des d’aquesta branca.
+
+3. Fes Commit i Push dels canvis. (Si mires al GitHub, hauries de veure que tens dues branques)
+
+4. Torna a la branca “master”.
+
+5. Fes un altre canvi al document i fer commit i push.
+
+6. Des d’aquesta fer merge dels canvis de la “branch1” a la teva branca “master”.
+
+###### Conflictes!
+
+1. Com era d’esperar, els Git t’avisa que hi ha canvis a les dues branques. En aquest cas tenim 3 opcions:
+
+a. Mine: seleccionar que els canvis de la branca actual “master” es la versió bona.
+
+b. Their: seleccionar que els canvis de l’altra branca “branch1” són els bons.
+
+c. Resoldre el conflicte: Si accedeixes al fitxer veuras que git ha afegit 3 linies de codi, esborrar-les i deixar les dues línies (una per cada branca).
+
+Per a l’exercici has d’utilitzar l’opció c.
